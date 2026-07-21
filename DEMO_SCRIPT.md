@@ -12,13 +12,13 @@
 
 “I can filter by category when I want a cleaner view, or search by a word when my list grows. Each task has a clear priority tag and timeframe.”
 
-“When I finish a task, I mark it complete. It stays visible as a record, but is visually de-emphasized and the completion meter updates. If I add a blank task, the app gives a helpful validation message. When a filter has no matches, there is also a friendly empty state rather than a broken-looking screen.”
+“When I finish a task, I mark it complete. It stays visible as a record, but is visually de-emphasized and the completion meter updates. I can also edit a task if the priority or timeframe changes, and deleting a task asks for confirmation. If I add a blank task, the app gives a helpful validation message. When a filter has no matches, there is also a friendly empty state rather than a broken-looking screen.”
 
 ## Implementation (2:25–3:35)
 
 “FocusFlow is built with React and Vite. The interface is organized as a small single-page application: state and interaction logic live in `src/main.jsx`, and the visual system and responsive layout live in `src/styles.css`.”
 
-“For this scoped version, I used browser local storage rather than a backend. That means tasks persist after refresh without requiring accounts or server infrastructure. I also added an initial loading treatment so the data handoff feels intentional.”
+“For this scoped version, I used browser local storage rather than a backend. That means tasks persist after refresh without requiring accounts or server infrastructure. The app validates saved browser data before using it, and I also added an initial loading treatment so the data handoff feels intentional.”
 
 “The layout adapts from a two-column desktop workspace to a single-column mobile experience, which makes the core flow usable on smaller screens.”
 
@@ -27,4 +27,3 @@
 “The main design challenge was keeping task management powerful enough to be useful without turning it into another complicated project-management tool. I resolved that by limiting each task to the fields needed for a daily decision: category, priority, and timeframe.”
 
 “Next, I would add optional sign-in and a cloud database so lists can sync across devices. Thank you for watching FocusFlow.”
-

@@ -2,10 +2,10 @@
 
 ## Before the form
 
-- [ ] Run `npm run build` successfully.
+- [ ] Run `npm run build` successfully (fix any local `dist` permissions issue first).
 - [ ] Deploy the `focusflow` folder and paste the live URL below.
 - [ ] Create a **public** GitHub repository and push the code.
-- [ ] Replace the live-demo and video placeholders in `README.md`.
+- [ ] Replace the live-demo, video, and screenshot placeholders in `README.md`.
 - [ ] Record the walkthrough using `DEMO_SCRIPT.md` (3–5 minutes).
 - [ ] Confirm the live app works on desktop and a narrow mobile browser.
 
