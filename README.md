@@ -2,7 +2,7 @@
 
 > A calm, responsive daily-priority planner that helps students and busy professionals decide what deserves attention today.
 
-**Live demo:** Student must add the deployed URL before submission.
+**Live demo:** https://steveantonysomavarapu.github.io/focusflow/
 **Demo video:** Student must add the recorded-demo URL before submission.
 
 ## Problem statement
